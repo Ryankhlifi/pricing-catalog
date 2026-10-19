@@ -1,0 +1,1011 @@
+{
+  "formatVersion": "v1.0",
+  "disclaimer": "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/",
+  "offerCode": "AWSLambda",
+  "version": "20261016182359",
+  "publicationDate": "2026-10-16T18:23:59Z",
+  "attributesList": {},
+  "products": {
+    "227MB7Z6QHZX743A": {
+      "sku": "227MB7Z6QHZX743A",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "usagetype": "Lambda-Managed-Instances-c7i.8xlarge-Management-Hours",
+        "operation": "",
+        "lambdaManagedInstanceType": "c7i.8xlarge",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "228MVDFM77WFS3WF": {
+      "sku": "228MVDFM77WFS3WF",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "usagetype": "EUW3-Lambda-Managed-Instances-m6a.32xlarge-Management-Hours",
+        "operation": "",
+        "lambdaManagedInstanceType": "m6a.32xlarge",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "4VCGJ7EG8PJVZG7S": {
+      "sku": "4VCGJ7EG8PJVZG7S",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "Any",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s",
+        "usagetype": "Global-Lambda-GB-Second",
+        "operation": "",
+        "regionCode": "",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "6GFK8TZW8U8G9MUB": {
+      "sku": "6GFK8TZW8U8G9MUB",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests",
+        "groupDescription": "Invocation call for a Lambda function",
+        "usagetype": "EUW3-Request",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "6TQX2GRPTDV8CFFQ": {
+      "sku": "6TQX2GRPTDV8CFFQ",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "usagetype": "Lambda-Managed-Instances-Request-ARM",
+        "operation": "",
+        "lambdaManagedInstances-RequestType": "Request-ARM",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "72SBSFWPMDTH8S3J": {
+      "sku": "72SBSFWPMDTH8S3J",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration-ARM",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s for ARM",
+        "usagetype": "Lambda-GB-Second-ARM",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "7V27U9PFRJGUDWJ8": {
+      "sku": "7V27U9PFRJGUDWJ8",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s",
+        "usagetype": "EUW3-Lambda-GB-Second",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "BMKCD2ZCEYKTYYCB": {
+      "sku": "BMKCD2ZCEYKTYYCB",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Provisioned-Concurrency",
+        "groupDescription": "Concurrency weighted by memory assigned to function over the period for which it is provisioned, measured in GB-s",
+        "usagetype": "Lambda-Provisioned-Concurrency",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "BVPQ9WHBE3SM65K7": {
+      "sku": "BVPQ9WHBE3SM65K7",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests-ARM",
+        "groupDescription": "Invocation call for a Lambda function for ARM",
+        "usagetype": "EUW3-Request-ARM",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "CVY5JH8RFRXMP92N": {
+      "sku": "CVY5JH8RFRXMP92N",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Storage-Duration",
+        "groupDescription": "Invocation duration weighted by ephemeral storage assigned to function, measured in GB-s",
+        "usagetype": "Lambda-Storage-GB-Second",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "GU2ZS9HVP6QTQ7KE": {
+      "sku": "GU2ZS9HVP6QTQ7KE",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests",
+        "groupDescription": "Invocation call for a Lambda function",
+        "usagetype": "Request",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "HYMBKMJZP76PZ7UF": {
+      "sku": "HYMBKMJZP76PZ7UF",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Provisioned-Concurrency",
+        "groupDescription": "Concurrency weighted by memory assigned to function over the period for which it is provisioned, measured in GB-s",
+        "usagetype": "EUW3-Lambda-Provisioned-Concurrency",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "K7BX6567RJ67A2KE": {
+      "sku": "K7BX6567RJ67A2KE",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests-ARM",
+        "groupDescription": "Invocation call for a Lambda function for ARM",
+        "usagetype": "Request-ARM",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "N7HW6RPFWJVEX3VW": {
+      "sku": "N7HW6RPFWJVEX3VW",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Storage-Duration",
+        "groupDescription": "Invocation duration weighted by ephemeral storage assigned to function, measured in GB-s",
+        "usagetype": "EUW3-Lambda-Storage-GB-Second",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "RUA4GEMXYRH9896Q": {
+      "sku": "RUA4GEMXYRH9896Q",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration-ARM",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s for ARM",
+        "usagetype": "EUW3-Lambda-GB-Second-ARM",
+        "operation": "",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "RZ8N2TAQDKPDSHPC": {
+      "sku": "RZ8N2TAQDKPDSHPC",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "Any",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Processed-Bytes",
+        "groupDescription": "Processed bytes for a streamed response from a Lambda function invocation",
+        "usagetype": "Global-Lambda-Streaming-Response-Processed-Bytes",
+        "operation": "",
+        "regionCode": "",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "TG3M4CAGBA3NYQBH": {
+      "sku": "TG3M4CAGBA3NYQBH",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s",
+        "usagetype": "Lambda-GB-Second",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "TR5M84R62MPAN2RX": {
+      "sku": "TR5M84R62MPAN2RX",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Paris)",
+        "locationType": "AWS Region",
+        "usagetype": "EUW3-Lambda-Managed-Instances-Request",
+        "operation": "",
+        "lambdaManagedInstances-RequestType": "Request",
+        "regionCode": "eu-west-3",
+        "servicename": "AWS Lambda"
+      }
+    },
+    "ZQVCC2M69R4S79XS": {
+      "sku": "ZQVCC2M69R4S79XS",
+      "productFamily": "Serverless",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "Any",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests",
+        "groupDescription": "Invocation call for a Lambda function",
+        "usagetype": "Global-Request",
+        "operation": "",
+        "regionCode": "",
+        "servicename": "AWS Lambda"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "227MB7Z6QHZX743A": {
+        "227MB7Z6QHZX743A.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "227MB7Z6QHZX743A",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "227MB7Z6QHZX743A.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "227MB7Z6QHZX743A.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.2142 per Hour for Lambda-Managed-Instances-c7i.8xlarge-Management-Hours in US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hours",
+              "pricePerUnit": {
+                "USD": "0.2142000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "228MVDFM77WFS3WF": {
+        "228MVDFM77WFS3WF.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "228MVDFM77WFS3WF",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "228MVDFM77WFS3WF.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "228MVDFM77WFS3WF.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.96768 per Hour for Lambda-Managed-Instances-m6a.32xlarge-Management-Hours in EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hours",
+              "pricePerUnit": {
+                "USD": "0.9676800000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "4VCGJ7EG8PJVZG7S": {
+        "4VCGJ7EG8PJVZG7S.A429C66SYZ": {
+          "offerTermCode": "A429C66SYZ",
+          "sku": "4VCGJ7EG8PJVZG7S",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "4VCGJ7EG8PJVZG7S.A429C66SYZ.KJYPJPDD2A": {
+              "rateCode": "4VCGJ7EG8PJVZG7S.A429C66SYZ.KJYPJPDD2A",
+              "description": "AWS Lambda - Compute Free Tier - 400,000 GB-Seconds",
+              "beginRange": "0",
+              "endRange": "400000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              },
+              "appliesTo": [
+                "RUA4GEMXYRH9896Q",
+                "79GRE5UQB86PEDTE",
+                "ACUC37K5K3N7C85Q",
+                "3BYZH4NKJN8TJUQ6",
+                "CHGDQQ3YSPF93CBA",
+                "72SBSFWPMDTH8S3J",
+                "H6FQK2WA7RDQ5V8X",
+                "TV26AWZ6ZNPAX59Z",
+                "D9T9NECWKTB5WH67",
+                "VGMFG9KJ58Z2FK83",
+                "92C8Z466WVKPRP7S",
+                "X48KB4DPQX4RKSY4",
+                "WH7JAAY3UGC8KHEC",
+                "6PPNGCBXY95TENXZ",
+                "AW8K7Q9ZMMBBP9W6",
+                "JNXN2GCNDMDR7JAF",
+                "TG3M4CAGBA3NYQBH",
+                "JUEJEGS4CE8UUZEP",
+                "Z6UGBG979PFHQNPH",
+                "6W6YS8N9UUWK42HD",
+                "Q5FVKYAA7TVWEYJW",
+                "GJ7G7EUMDKUWJE2B",
+                "P44629QEZBV3SH4T",
+                "RP9RSZYUC96SQ4G2",
+                "PHDF9YNAFR3HDSR8",
+                "HTQZ78UWV8DFX49Y",
+                "Y9MYZCDTMAKCDR6D",
+                "46GNEXAQAPS9YGE2",
+                "KS26AK5FJMDYPXSF",
+                "69Y7TUFYEF9HAV59",
+                "9EQKNHGVQZ99FYAZ",
+                "JZF5EBXY9YXH6KJZ",
+                "K7NQZ75EHFKR2U2R",
+                "U6YRFNVKQZTX8VF2",
+                "BF3RMJFYR9ZK3K9E",
+                "WW6YFYVSDJAEJEZW",
+                "2PW46FQRKMQMYQVF",
+                "TYPBRHCXJ9JT6HMW",
+                "UBVQ8M4ZYG32RFDU",
+                "NYVZUNE2ERJBX52D",
+                "FSYUV9NMNDEXRJ5H",
+                "XX6J9KCM423YDBZM",
+                "HBHNHZU5GAMUNNJH",
+                "S4ZKFHQ6B28FBYVW",
+                "ZSE7CMBEBTMPH8ET",
+                "4NX7CSSF3DVPXWBT",
+                "V3FAJBSMWXEXYUD7",
+                "KDEJ26SV7QK2N7DW",
+                "XVFAA23C65JJZNNW",
+                "DQSCCD3863BVQARD",
+                "JMYXZ4MKRUCS2X8Q",
+                "R3C6YVZV7TF52KUE",
+                "VRFJ836X75T58FNT",
+                "XZG2GSVN4SF6M4GV",
+                "KXNSA7NBRHBHXXPS",
+                "N7S38YMSMVSPHNAH",
+                "3NTSY6TBUTNFSSPN",
+                "TZ37H3DV8JXUESM7",
+                "SGGKTWDV7PGMPPSJ",
+                "XCU6U9G4FCKZQWG9",
+                "TQNRYWE9JKMETPM3",
+                "7N49FRQMXS49C2QS",
+                "Y3J9NSBFENB45VFD",
+                "7V27U9PFRJGUDWJ8",
+                "67ZV6RMYY72YSRDC",
+                "EZZMW8SEEDT6E2G5",
+                "T3BEHFG5V4TZDT76",
+                "4KSP88F2GNAU7KED",
+                "HQWXQQHHTTTVSUH2",
+                "SWU8SVYB8U6S2RXR",
+                "SKKKJURRUZNWWKF9",
+                "QVV5SPACJCKHAF8A",
+                "U9BBUJHRSYYFC597",
+                "KSD76ZR243WEPWRS"
+              ]
+            }
+          },
+          "termAttributes": {
+            "Restriction": "Limited SKU Usage"
+          }
+        }
+      },
+      "6GFK8TZW8U8G9MUB": {
+        "6GFK8TZW8U8G9MUB.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6GFK8TZW8U8G9MUB",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "6GFK8TZW8U8G9MUB.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "6GFK8TZW8U8G9MUB.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Total Requests - EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Request",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "6TQX2GRPTDV8CFFQ": {
+        "6TQX2GRPTDV8CFFQ.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6TQX2GRPTDV8CFFQ",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "6TQX2GRPTDV8CFFQ.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "6TQX2GRPTDV8CFFQ.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0000002 per Request for Lambda-Managed-Instances-Request-ARM in US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Requests",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "72SBSFWPMDTH8S3J": {
+        "72SBSFWPMDTH8S3J.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "72SBSFWPMDTH8S3J",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "72SBSFWPMDTH8S3J.JRTCKXETXF.6NBUNBXSC3": {
+              "rateCode": "72SBSFWPMDTH8S3J.JRTCKXETXF.6NBUNBXSC3",
+              "description": "AWS Lambda - Total Compute for ARM - US East (Northern Virginia)-Tier-1",
+              "beginRange": "0",
+              "endRange": "7500000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000133334"
+              },
+              "appliesTo": []
+            },
+            "72SBSFWPMDTH8S3J.JRTCKXETXF.6JGAYSJBNY": {
+              "rateCode": "72SBSFWPMDTH8S3J.JRTCKXETXF.6JGAYSJBNY",
+              "description": "AWS Lambda - Total Compute for ARM - US East (Northern Virginia)-Tier-2",
+              "beginRange": "7500000000",
+              "endRange": "18750000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000120001"
+              },
+              "appliesTo": []
+            },
+            "72SBSFWPMDTH8S3J.JRTCKXETXF.AVR3V96UTF": {
+              "rateCode": "72SBSFWPMDTH8S3J.JRTCKXETXF.AVR3V96UTF",
+              "description": "AWS Lambda - Total Compute for ARM - US East (Northern Virginia)-Tier-3",
+              "beginRange": "18750000000",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000106667"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "7V27U9PFRJGUDWJ8": {
+        "7V27U9PFRJGUDWJ8.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "7V27U9PFRJGUDWJ8",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "7V27U9PFRJGUDWJ8.JRTCKXETXF.CUKFZ388N3": {
+              "rateCode": "7V27U9PFRJGUDWJ8.JRTCKXETXF.CUKFZ388N3",
+              "description": "AWS Lambda - Total Compute - EU (Paris)-Tier-1",
+              "beginRange": "0",
+              "endRange": "6000000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000166667"
+              },
+              "appliesTo": []
+            },
+            "7V27U9PFRJGUDWJ8.JRTCKXETXF.QZE2SB4KVB": {
+              "rateCode": "7V27U9PFRJGUDWJ8.JRTCKXETXF.QZE2SB4KVB",
+              "description": "AWS Lambda - Total Compute - EU (Paris)-Tier-2",
+              "beginRange": "6000000000",
+              "endRange": "15000000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000150000"
+              },
+              "appliesTo": []
+            },
+            "7V27U9PFRJGUDWJ8.JRTCKXETXF.V7R92EXG27": {
+              "rateCode": "7V27U9PFRJGUDWJ8.JRTCKXETXF.V7R92EXG27",
+              "description": "AWS Lambda - Total Compute - EU (Paris)-Tier-3",
+              "beginRange": "15000000000",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000133334"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "BMKCD2ZCEYKTYYCB": {
+        "BMKCD2ZCEYKTYYCB.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "BMKCD2ZCEYKTYYCB",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "BMKCD2ZCEYKTYYCB.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "BMKCD2ZCEYKTYYCB.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Provisioned Concurrency - US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000041667"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "BVPQ9WHBE3SM65K7": {
+        "BVPQ9WHBE3SM65K7.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "BVPQ9WHBE3SM65K7",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "BVPQ9WHBE3SM65K7.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "BVPQ9WHBE3SM65K7.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Total Requests for ARM - EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Requests",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "CVY5JH8RFRXMP92N": {
+        "CVY5JH8RFRXMP92N.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "CVY5JH8RFRXMP92N",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "CVY5JH8RFRXMP92N.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "CVY5JH8RFRXMP92N.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Ephemeral Storage - US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "GB-Seconds",
+              "pricePerUnit": {
+                "USD": "0.0000000309"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "GU2ZS9HVP6QTQ7KE": {
+        "GU2ZS9HVP6QTQ7KE.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "GU2ZS9HVP6QTQ7KE",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "GU2ZS9HVP6QTQ7KE.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "GU2ZS9HVP6QTQ7KE.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Total Requests - US East (Northern Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Requests",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "HYMBKMJZP76PZ7UF": {
+        "HYMBKMJZP76PZ7UF.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HYMBKMJZP76PZ7UF",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "HYMBKMJZP76PZ7UF.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "HYMBKMJZP76PZ7UF.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Provisioned Concurrency - EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000048673"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "K7BX6567RJ67A2KE": {
+        "K7BX6567RJ67A2KE.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "K7BX6567RJ67A2KE",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "K7BX6567RJ67A2KE.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "K7BX6567RJ67A2KE.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Total Requests for ARM - US East (Northern Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Requests",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "N7HW6RPFWJVEX3VW": {
+        "N7HW6RPFWJVEX3VW.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "N7HW6RPFWJVEX3VW",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "N7HW6RPFWJVEX3VW.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "N7HW6RPFWJVEX3VW.JRTCKXETXF.6YS6EN2CT7",
+              "description": "AWS Lambda - Ephemeral Storage - EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "GB-Seconds",
+              "pricePerUnit": {
+                "USD": "0.0000000358"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "RUA4GEMXYRH9896Q": {
+        "RUA4GEMXYRH9896Q.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "RUA4GEMXYRH9896Q",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "RUA4GEMXYRH9896Q.JRTCKXETXF.6NBUNBXSC3": {
+              "rateCode": "RUA4GEMXYRH9896Q.JRTCKXETXF.6NBUNBXSC3",
+              "description": "AWS Lambda - Total Compute for ARM - EU (Paris)-Tier-1",
+              "beginRange": "0",
+              "endRange": "7500000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000133334"
+              },
+              "appliesTo": []
+            },
+            "RUA4GEMXYRH9896Q.JRTCKXETXF.6JGAYSJBNY": {
+              "rateCode": "RUA4GEMXYRH9896Q.JRTCKXETXF.6JGAYSJBNY",
+              "description": "AWS Lambda - Total Compute for ARM - EU (Paris)-Tier-2",
+              "beginRange": "7500000000",
+              "endRange": "18750000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000120001"
+              },
+              "appliesTo": []
+            },
+            "RUA4GEMXYRH9896Q.JRTCKXETXF.AVR3V96UTF": {
+              "rateCode": "RUA4GEMXYRH9896Q.JRTCKXETXF.AVR3V96UTF",
+              "description": "AWS Lambda - Total Compute for ARM - EU (Paris)-Tier-3",
+              "beginRange": "18750000000",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000106667"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "RZ8N2TAQDKPDSHPC": {
+        "RZ8N2TAQDKPDSHPC.A429C66SYZ": {
+          "offerTermCode": "A429C66SYZ",
+          "sku": "RZ8N2TAQDKPDSHPC",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "RZ8N2TAQDKPDSHPC.A429C66SYZ.ETY2894C67": {
+              "rateCode": "RZ8N2TAQDKPDSHPC.A429C66SYZ.ETY2894C67",
+              "description": "Global rate for Lambda-Streaming-Response-Processed-Bytes",
+              "beginRange": "0",
+              "endRange": "100",
+              "unit": "Processed-Gigabytes",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              },
+              "appliesTo": [
+                "FH5RZCCN9VAATCBU",
+                "7KZEXU4WQVE37MQP",
+                "WRH84A5M94RY2B2B",
+                "93ZY797THXB9X3R6",
+                "RGDQAPUD67KCUDNJ",
+                "6TNABQXRYH9MCFXR",
+                "SDXDPTMBE42BDBD5",
+                "E3N84PAQZGR83JSJ",
+                "NX348F4DRMW8PD3U",
+                "GN9RA6DUAQZ7FK2B",
+                "WJCZC8VHP7VMDTAY",
+                "YJ7TQZDTWFUA8NHS",
+                "NCWFKF9SX4W4MNY5",
+                "QTHAQ83XMB5SU83B",
+                "ESVH5YSQ5TJ2DMAX",
+                "Z627MMN3RBSYY8NR",
+                "ZNNW79AM8YJ92A7Q",
+                "G8P58S9SAFK2QK59",
+                "AHAAZCRTDSF75ZM5",
+                "AGH66M8E9EWTJ63H",
+                "G6T3KM35Q67VJDBS",
+                "CDT2S8TZ3DZJV8TT",
+                "2NNTB8CK4A9UKUZC",
+                "FDPASJ6XFSK8RMB5",
+                "KP4M2VC6HZRGXS8M",
+                "S3EVS4ABD7UCUWX2",
+                "A6MDNBDHSN73H2YG",
+                "3X587VJU7YZXFT3Q",
+                "YC5UTCG229W97MKZ",
+                "T42XJ833VR892PZ5",
+                "9V9SNEASQ494ZTUX",
+                "MQUG98WZKVH9G9BX",
+                "5GNXVH3GA89GG5SQ",
+                "X3HJB7CGUUNFCC5W",
+                "B2T2Q5BE8W2JN8PS",
+                "Q722XZ7ZTNCHHVJS",
+                "72NMC33ND8UJSZYQ",
+                "KQHN7FRR5PDMQRCR",
+                "RJKWHBCSDT32Z53D",
+                "QY86472AJ63KPC55",
+                "ADT7JHXM5SUV8G8J",
+                "NCWKKS64VC9Z74WD",
+                "KAMMHJVTDFWTEH6M",
+                "7W57J8N7CK54JSQF",
+                "FKVF2FFZFKHXNVJ2",
+                "4R9XBSF7FKUQN3J6",
+                "3CZ9T322A9MRGKB6",
+                "CR34UD6VD8B2XFDN",
+                "MDWFXAVAVTH73G3E",
+                "TAVJZ2AHM9JEYKUK",
+                "NZGRMXV87W8HQUH8",
+                "4PVUXX66YAUQK74P",
+                "BZMPTR2BGMEKJU95",
+                "YYYJ39XTDRZQBKXT",
+                "28VVB7NAFMQH6Z7Q",
+                "J9AU7QRJMT2NDX3H",
+                "T6J2KVMXT793PX6R",
+                "STTHPBW4V2JFGX4S",
+                "FMYTDAQAKASSJCVC",
+                "TZ2G6UQ38VMVVBXF",
+                "76P6235FB8T47KPZ",
+                "7WN9XJ9WUF2CA74G",
+                "W9Z6S6K2ZJAXSN95",
+                "YEMS5WJ2X5H9BCK2",
+                "J2PCAT8GTKGHMPPE",
+                "KZKQX4HHVU66X4WK",
+                "YSWRZPNVKS8YSVRT",
+                "SU5948MRY5A8GWNM",
+                "4999392KBH397UEE",
+                "R4V6848ZUNEZ66K6",
+                "U8WCDV6K7Q57DD2D",
+                "FCMU68FYJJ8CZY8X"
+              ]
+            }
+          },
+          "termAttributes": {
+            "Restriction": "Limited SKU Usage"
+          }
+        }
+      },
+      "TG3M4CAGBA3NYQBH": {
+        "TG3M4CAGBA3NYQBH.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TG3M4CAGBA3NYQBH",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "TG3M4CAGBA3NYQBH.JRTCKXETXF.CUKFZ388N3": {
+              "rateCode": "TG3M4CAGBA3NYQBH.JRTCKXETXF.CUKFZ388N3",
+              "description": "AWS Lambda - Total Compute - US East (Northern Virginia)-Tier-1",
+              "beginRange": "0",
+              "endRange": "6000000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000166667"
+              },
+              "appliesTo": []
+            },
+            "TG3M4CAGBA3NYQBH.JRTCKXETXF.QZE2SB4KVB": {
+              "rateCode": "TG3M4CAGBA3NYQBH.JRTCKXETXF.QZE2SB4KVB",
+              "description": "AWS Lambda - Total Compute - US East (Northern Virginia)-Tier-2",
+              "beginRange": "6000000000",
+              "endRange": "15000000000",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000150000"
+              },
+              "appliesTo": []
+            },
+            "TG3M4CAGBA3NYQBH.JRTCKXETXF.V7R92EXG27": {
+              "rateCode": "TG3M4CAGBA3NYQBH.JRTCKXETXF.V7R92EXG27",
+              "description": "AWS Lambda - Total Compute - US East (Northern Virginia)-Tier-3",
+              "beginRange": "15000000000",
+              "endRange": "Inf",
+              "unit": "Lambda-GB-Second",
+              "pricePerUnit": {
+                "USD": "0.0000133334"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "TR5M84R62MPAN2RX": {
+        "TR5M84R62MPAN2RX.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "TR5M84R62MPAN2RX",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "TR5M84R62MPAN2RX.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "TR5M84R62MPAN2RX.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0000002 per Request for Lambda-Managed-Instances-Request in EU (Paris)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Requests",
+              "pricePerUnit": {
+                "USD": "0.0000002000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "ZQVCC2M69R4S79XS": {
+        "ZQVCC2M69R4S79XS.A429C66SYZ": {
+          "offerTermCode": "A429C66SYZ",
+          "sku": "ZQVCC2M69R4S79XS",
+          "effectiveDate": "2026-10-01T00:00:00Z",
+          "priceDimensions": {
+            "ZQVCC2M69R4S79XS.A429C66SYZ.SB2VSFF4TP": {
+              "rateCode": "ZQVCC2M69R4S79XS.A429C66SYZ.SB2VSFF4TP",
+              "description": "AWS Lambda - Requests Free Tier - 1,000,000 Requests",
+              "beginRange": "0",
+              "endRange": "1000000",
+              "unit": "Request",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              },
+              "appliesTo": [
+                "8FY96CH95ZA8NU5C",
+                "VXJTSR9CJSBFXG5K",
+                "KY96C7U4EB95UXGK",
+                "F9T53VWVKRT6G32X",
+                "EXZWANHF3J8G524N",
+                "B22EKFMS5UB7E4DB",
+                "XM5KDGVKY9KYJWCG",
+                "VPGUBFQ4KNZKMKGJ",
+                "89U8ZQR2ZV45HXWY",
+                "4JWH9XJEQW57HPK7",
+                "D9Z54P78JUX2Y552",
+                "DMJPKNDPVRPMG2E7",
+                "476SBHCHQKEMB5CF",
+                "EMZ8YZDPGWMDYZNK",
+                "75D867BXR9WJ9F77",
+                "E7YK4NJVGVSYK2HH",
+                "XPFR3MTP3RW5GRTN",
+                "YV5CBXWN5ARWJ7V9",
+                "R3N9VPKCMSVAJDEH",
+                "NCR6U4F9R96E94YR",
+                "PV7EVKE5W5DV9HR7",
+                "2PJ77N2RZDFUWCYT",
+                "ZWHFK83WS2P4WZR6",
+                "BVPQ9WHBE3SM65K7",
+                "FPS5FM45229RTFBT",
+                "B5V2RNHAWGVJBZD3",
+                "5JXCX35TH2MPMFMW",
+                "G87G4VHC8MFGZYZU",
+                "ED4MANDMTGZ4Z9QF",
+                "RN53C25R9GDX9T49",
+                "68H82NC62DFBNEVM",
+                "XJDGEW4KCCD2P5TG",
+                "92KS5FMQEEJ39ACN",
+                "GU2ZS9HVP6QTQ7KE",
+                "NFXH9EUGP7BUPE4A",
+                "FMKMXUNY35KEUAM3",
+                "CKZQ3D25MV9ET243",
+                "YY4C5XTAZNQPB6J6",
+                "K4KA7GJPQTT3ZJ5A",
+                "V5T5H5YEU5SUN3C2",
+                "4KD96CKPZF9FJUJ9",
+                "VUQUVJRYRZKGXHKX",
+                "EQE7YY7WBWZFB46G",
+                "7TZ969MZND3Z6HD7",
+                "BBNA8X4S2N3SMD7K",
+                "6GFK8TZW8U8G9MUB",
+                "UVYYDZQ83GKQ2K6C",
+                "W5998MSDP4P5N43C",
+                "K9DMCWXXQT7TQSWX",
+                "AA4Q79463N2JQHZA",
+                "KERWZD8CJ22SEZWT",
+                "ZW6UHD4Q6EPUCZWU",
+                "NDYBVXT3KB548Z2A",
+                "RYFSQRRXQ4R9CK7A",
+                "UH8TQNRPPRZ9TJ4V",
+                "RKMA4PX3K8H4VAP4",
+                "DV2YFXRNHNJFTDP3",
+                "3T9634R2MFT46X4K",
+                "EE6A5VEB3PCF9VKU",
+                "HPTUCREBP3C88BAZ",
+                "GVB4MJBFXA3BX4M6",
+                "36D3E7396ZKUSWWW",
+                "D4TPQYY66DKTZWX9",
+                "R2QWMZCXCNAMHHT9",
+                "BNQXHCKJQCQXPHE8",
+                "MN74ND7YYK8MBEC6",
+                "K7BX6567RJ67A2KE",
+                "6SKZPR8753NAAQ4W",
+                "T34KQWJP89CNB5GZ",
+                "3BE8DYKG4FYSZGDW",
+                "DJNVRSYVP8QY93QP",
+                "GRP2QG4WUGQFGJ6T",
+                "574VQJ288VE2ZGMU",
+                "ZEA64MMVK5QRB5TC"
+              ]
+            }
+          },
+          "termAttributes": {
+            "Restriction": "Limited SKU Usage"
+          }
+        }
+      }
+    }
+  }
+}
