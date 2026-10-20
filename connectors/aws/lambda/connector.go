@@ -63,10 +63,11 @@ func (c Connector) Fetch(ctx context.Context) ([]catalog.PricingRecord, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer response.Body.Close()
+
 	if response.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("unexpected status code: %d", response.StatusCode)
 	}
-	defer response.Body.Close()
 
 	return normalizeAWS(response.Body, c.Source)
 }
