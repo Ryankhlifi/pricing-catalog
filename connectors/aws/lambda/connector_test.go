@@ -46,8 +46,7 @@ func newFixtureServer(t *testing.T, status int, body []byte) *httptest.Server {
 }
 
 // newLambdaConnector centralizes construction so the tests only need to change
-// this helper if the connector constructor changes. The current New signature
-// still accepts a reader that Fetch does not use, so nil is supplied here.
+// this helper if the connector constructor changes.
 func newLambdaConnector(sourceURL string) Connector {
 	return New(sourceURL)
 }
