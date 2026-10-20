@@ -3,7 +3,9 @@ package lambda
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"io"
+	"net/http"
 	"pricing-catalog/pkg/catalog"
 	"sort"
 )
@@ -37,14 +39,12 @@ type AwsPriceDimension struct {
 }
 
 type Connector struct {
-	Reader  io.Reader
-	BaseURL string
+	Source string
 }
 
-func New(reader io.Reader, url string) Connector {
+func New(source string) Connector {
 	return Connector{
-		Reader:  reader,
-		BaseURL: url,
+		Source: source,
 	}
 }
 
@@ -53,15 +53,28 @@ func (c Connector) Name() string {
 }
 
 func (c Connector) Fetch(ctx context.Context) ([]catalog.PricingRecord, error) {
-
-	select {
-	case <-ctx.Done():
-		return nil, ctx.Err()
-	default:
+	request, err := http.NewRequestWithContext(ctx, http.MethodGet, c.Source, nil)
+	if err != nil {
+		return nil, err
 	}
+	request.Header.Add("Accept", "application/json")
+
+	response, err := http.DefaultClient.Do(request)
+	if err != nil {
+		return nil, err
+	}
+	if response.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("unexpected status code: %d", response.StatusCode)
+	}
+	defer response.Body.Close()
+
+	return normalizeAWS(response.Body, c.Source)
+}
+
+func normalizeAWS(reader io.Reader, source string) ([]catalog.PricingRecord, error) {
 
 	var data AwsSource
-	err := json.NewDecoder(c.Reader).Decode(&data)
+	err := json.NewDecoder(reader).Decode(&data)
 	if err != nil {
 		return nil, err
 	}
@@ -98,7 +111,9 @@ func (c Connector) Fetch(ctx context.Context) ([]catalog.PricingRecord, error) {
 					region = "Any"
 				}
 
-				for currency, amount := range dimension.PricePerUnit {
+				for _, currency := range sortedKeys(dimension.PricePerUnit) {
+					amount := dimension.PricePerUnit[currency]
+
 					records = append(records, catalog.PricingRecord{
 						Provider:      "AWS",
 						Product:       product.ProductFamily,
@@ -108,7 +123,7 @@ func (c Connector) Fetch(ctx context.Context) ([]catalog.PricingRecord, error) {
 						BillingUnit:   dimension.Unit,
 						Source: catalog.Source{
 							Type: "HTTP",
-							URL:  c.BaseURL,
+							URL:  source,
 						},
 						PricingDimension: pricingDimension,
 						Tier: &catalog.Tier{
